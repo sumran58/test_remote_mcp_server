@@ -4,6 +4,7 @@ import aiosqlite
 import tempfile
 import sqlite3
 from typing import Optional
+from fastmcp import FastMCP
 
 TEMP_DIR = tempfile.gettempdir()
 DB_PATH = os.path.join(TEMP_DIR, "expenses.db")
